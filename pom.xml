@@ -26,7 +26,7 @@
                         <manifest>
                             <addClasspath>true</addClasspath>
                             <classpathPrefix>lib/</classpathPrefix>
-                            <mainClass>org.example.FizzBuzz</mainClass>
+                            <mainClass>src.main.java.org.example.FizzBuzz</mainClass>
                         </manifest>
                     </archive>
                 </configuration>
