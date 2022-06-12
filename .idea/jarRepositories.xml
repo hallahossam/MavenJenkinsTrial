@@ -6,11 +6,7 @@
       <option name="name" value="Central Repository" />
       <option name="url" value="https://repo.maven.apache.org/maven2" />
     </remote-repository>
-    <remote-repository>
-      <option name="id" value="myMavenRepo.read" />
-      <option name="name" value="myMavenRepo.read" />
-      <option name="url" value="https://mymavenrepo.com/repo/FN8PIshHk5uALNhkXbhs/" />
-    </remote-repository>
+
     <remote-repository>
       <option name="id" value="myMavenRepo.read" />
       <option name="name" value="myMavenRepo.read" />

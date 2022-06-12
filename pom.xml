@@ -43,7 +43,7 @@
     <repositories>
         <repository>
             <id>myMavenRepo.read</id>
-            <url> https://mymavenrepo.com/repo/bPQJDC4HUNN2BDxRDlt0/</url>
+            <url>https://mymavenrepo.com/repo/bPQJDC4HUNN2BDxRDlt0/</url>
         </repository>
     </repositories>
 
