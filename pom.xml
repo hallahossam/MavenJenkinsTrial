@@ -15,21 +15,6 @@
     </properties>
 
 
-    <build>
-    <plugins>
-        <plugin>
-            <artifactId>maven-surefire-plugin</artifactId>
-            <version>2.19</version>
-            <dependencies>
-                <dependency>
-                    <groupId>org.junit.platform</groupId>
-                    <artifactId>junit-platform-surefire-provider</artifactId>
-                    <version>1.0.0-M3</version>
-                </dependency>
-            </dependencies>
-        </plugin>
-    </plugins>
-    </build>
 <dependencies>
     <dependency>
         <groupId>junit</groupId>
@@ -40,18 +25,5 @@
 </dependencies>
 
 
-    <repositories>
-        <repository>
-            <id>myMavenRepo.read</id>
-            <url>https://mymavenrepo.com/repo/bPQJDC4HUNN2BDxRDlt0/</url>
-        </repository>
-    </repositories>
-
-    <distributionManagement>
-        <repository>
-            <id>myMavenRepo.write</id>
-            <url>https://mymavenrepo.com/repo/GEccqWDwrpYmi3oEs6zk/</url>
-        </repository>
-    </distributionManagement>
 
 </project>
