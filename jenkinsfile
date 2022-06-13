@@ -11,7 +11,7 @@ steps{
 
 echo "Halla is here 1"
 dir ("C:/Program Files/MyGitProjects/GitHub/MavenJenkinsTrial"){
-bat 'mvn clean'
+bat 'mvn clean compile'
 }
 echo "Halla is here 2"
 }
@@ -20,7 +20,9 @@ echo "Halla is here 2"
 stage('Testing Stage'){
 steps{
 echo "Halla is here 3"
+dir ("C:/Program Files/MyGitProjects/GitHub/MavenJenkinsTrial"){
 bat 'mvn test -Dtest="FizzBuzz"'
+}
 
 }
 }
