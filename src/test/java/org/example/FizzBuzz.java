@@ -9,7 +9,7 @@ public class FizzBuzz {
 
     @Test
     public void testNumber() {
-        String fizzBuzz = fB.play(1);
+        String fizzBuzz = fB.play(2);
         System.out.println(fizzBuzz);
 
     }
