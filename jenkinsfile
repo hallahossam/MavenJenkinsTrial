@@ -1,20 +1,22 @@
 pipeline {
+tools{
+maven 'Maven 3.8.5'
+}
+
 agent any
 stages{
 
 stage('Compile Stage'){
 steps{
-withMaven(maven : 'Maven 3.8.5'){
+
 sh 'mvn clean'
-}
 }
 
 }
 stage('Testing Stage'){
 steps{
-withMaven(maven : 'Maven 3.8.5'){
 sh 'mvn test -Dtest="FizzBuzz"'
-}
+
 }
 }
 }
