@@ -10,7 +10,7 @@ stage('Compile Stage'){
 steps{
 
 echo "Halla is here 1"
-dir ("C:/Program Files/MyGitProjects/GitHub/MavenJenkinsTrial/pom.xml"){
+dir ("C:/Program Files/MyGitProjects/GitHub/MavenJenkinsTrial"){
 sh 'mvn clean'
 }
 echo "Halla is here 2"
