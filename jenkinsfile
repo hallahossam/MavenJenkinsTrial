@@ -1,6 +1,7 @@
 pipeline {
 tools{
 maven 'Maven 3.8.5'
+
 }
 
 agent any
@@ -20,7 +21,7 @@ echo "Halla is here 2"
 stage('Testing Stage'){
 steps{
 echo "Halla is here 3"
-
+bat 'mvn test -Dtest="FizzBuzz"'
 }
 }
 }
